@@ -1,0 +1,174 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-home{
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+.greeting{
+    font-size: 46px;
+    color: #2AA9E0;
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    position: absolute;
+    top: 110px;
+    right: 760px;
+}
+
+#menu{
+    position: absolute;
+    top: 13px;
+    left: 550px;
+}
+
+#menu ul li{
+    display: inline;
+    margin-left: 18px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-align: end;
+    color: #000000;
+    cursor: pointer;
+}
+
+#menu a:hover{
+    color: #2AA9E0;
+}
+
+#menu .logoff:hover{
+    color: #FF0000;
+}
+
+#cards{
+    margin-top: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-gym{
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 270px;
+    margin-right: 220px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .5s;
+    border: 1px solid transparent;
+}
+
+.card-gym:hover{
+    border: 7px solid #136497;
+    border-radius: 7px;
+}
+
+.gym-link{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.pesos{
+    height: 200px;
+    width: 120px;
+    margin-left: 39px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.gym-txt{
+    text-align: center;
+    font-size: 22px;
+    color: #2AA9E0;
+    font-weight: bold;
+}
+
+.card-nutri{
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 270px;
+    margin-right: 220px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all .5s;
+    border: 1px solid transparent;
+}
+
+.card-nutri:hover{
+    border: 7px solid #136497;
+    border-radius: 7px;
+}
+
+.nutri-link{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nutri{
+    height: 200px;
+    width: 120px;
+    margin-left: 39px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.nutri-txt{
+    text-align: center;
+    font-size: 22px;
+    color: #2AA9E0;
+    font-weight: bold;
+}
+
+.card-cardio{
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 270px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all .5s;
+    border: 1px solid transparent;
+}
+
+.card-cardio:hover{
+    border: 7px solid #136497;
+    border-radius: 7px;
+}
+
+.cardio-link{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.cardio{
+    height: 200px;
+    width: 120px;
+    margin-left: 39px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.cardio-txt{
+    text-align: center;
+    font-size: 22px;
+    color: #2AA9E0;
+    font-weight: bold;
+}
+

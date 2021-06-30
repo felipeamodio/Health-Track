@@ -1,0 +1,263 @@
+.img-logo{
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+#menu{
+    position: absolute;
+    top: 13px;
+    left: 550px;
+}
+
+#menu ul li{
+    display: inline;
+    margin-left: 18px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-align: end;
+    color: #000000;
+    cursor: pointer;
+}
+
+#menu a:hover{
+    color: #2AA9E0;
+}
+
+#menu .logoff:hover{
+    color: #FF0000;
+}
+
+.title{
+    position: absolute;
+    top: 94px;
+    left: 730px;
+}
+
+#container-form{
+    background-color: #FFFFFF;
+    width: 27%;
+    height: 490px;
+    margin-top: 200px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.container-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.container-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #F8F8FF;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.container-name:hover{
+    background-color: #DaDaFa;
+}
+
+.link-name{
+    text-decoration: none;
+    margin-left: 6px;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.name{
+    margin-right: 6px;
+    font-size: 16px;
+    color: #2AA9E0;
+    font-weight: bold;
+}
+
+.container-nasc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.container-nasc:hover{
+    background-color: #DaDaFa;
+}
+
+.link-nasc{
+    text-decoration: none;
+    margin-left: 6px;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.nasc{
+    margin-right: 6px;
+    font-size: 16px;
+    color: #2AA9E0;
+    font-weight: bold;
+}
+
+.container-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F8FF;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.container-email:hover{
+    background-color: #DaDaFa;
+}
+
+.link-email{
+    text-decoration: none;
+    margin-left: 6px;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.email{
+    margin-right: 6px;
+    font-size: 16px;
+    color: #2AA9E0;
+    font-weight: bold;
+}
+
+.container-gen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.container-gen:hover{
+    background-color: #DaDaFa;
+}
+
+.link-gen{
+    text-decoration: none;
+    margin-left: 6px;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.gen{
+    margin-right: 6px;
+    font-size: 16px;
+    color: #2AA9E0;
+    font-weight: bold;
+}
+
+.container-tel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F8FF;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.container-tel:hover{
+    background-color: #DaDaFa;
+}
+
+.link-tel{
+    text-decoration: none;
+    margin-left: 6px;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.tel{
+    margin-right: 6px;
+    font-size: 16px;
+    color: #2AA9E0;
+    font-weight: bold;
+}
+
+.container-pwd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.container-pwd:hover{
+    background-color: #DaDaFa;
+}
+
+.link-pwd{
+    text-decoration: none;
+    margin-left: 6px;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.pwd{
+    margin-right: 6px;
+    font-size: 16px;
+    color: #2AA9E0;
+    font-weight: bold;
+}
+
+.btn-logoff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 37px;
+    margin-left: 68px;
+    background-color: #FF0000;
+    border-radius: 12px;
+    width: 70%;
+    height: 32px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.btn-logoff:hover{
+    background-color: #FF4500;
+}
+
+.txt-logoff{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 800;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.img-logo{
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+#menu{
+    position: absolute;
+    top: 13px;
+    left: 550px;
+}
+
+#menu ul li{
+    display: inline;
+    margin-left: 18px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-align: end;
+    color: #000000;
+    cursor: pointer;
+}
+
+#menu a:hover{
+    color: #2AA9E0;
+}
+
+#menu .logoff:hover{
+    color: #FF0000;
+}
+
+.title{
+    position: absolute;
+    top: 120px;
+}
+
+.container{
+    margin-top: 230px;
+    background-color: #F0FFFF;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.search {
+    top: 6px;
+    left: 10px;
+}
+
+
+.form-control {
+    border: none;
+    padding-left: 32px;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.green {
+    color: green;
+}
+
+.icon-edit{
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.icon-delete{
+    cursor: pointer;
+}
+
+.btn-plus{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #4169E1;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 11px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-plus:hover{
+    color: #FFFFFF;
+}
